@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap:10rem;
+}
+
+.nav{
+    border: 1px solid black;
+    width: 16rem;
+    height: 61rem;   
+    
+}
+.margin{
+    margin-top: 3rem;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+.margin1{
+    margin-top: 18rem;
+}
+.logo{
+    font-weight: 800;
+    font-size: 32px;
+}
+.header{
+    border: 1px solid black;
+    width: 40rem;
+    height:8rem;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+.story{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: 4px solid rgb(137, 9, 9);
+    cursor: pointer;
+
+}
+.body{
+    width: 40rem;
+    height: 51rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(13, 0, 0);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+}
+.container1{
+    display: flex;
+    margin-left: 1rem;
+}
+#gap{
+    margin-top: 2rem;
+    margin-left: 0.1rem;
+
+}
+button{
+    margin-top: 2rem;
+    margin-left: 9rem;
+    padding: 10px 25px;
+    font-size: 15px;
+    background-color: rgb(4, 4, 241);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}    
+#icon{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-right: 10px;
+}
+.icon-flex{
+    display: flex;
+    gap: 1rem;
+    margin-left: 3px;
+}
+.like{
+    width:2rem;
+    height: 2rem;
+    border-radius: 40px;
+    margin-top:2px;
+    margin-left: 2px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.comment{
+    display: flex;
+    gap: 4px;
+}
+#gap2{
+    margin-top:8px;
+}
+.comment1{
+    margin-left:8px;
+}
+span{
+    color: rgb(104, 102, 102);
+}
+.Add{
+    display: flex;
+    justify-content: space-between;
+    font-size: 19px;
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+}
+main{
+    display: flex;
+}
+.switch{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;    
+}
+#account{
+    margin-left:9rem;
+}
+#suggest{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.follow{
+    width:3rem;
+    height: 3rem;
+    border-radius: 40px;
+    margin-left: 2px;
+    margin-top: 1.5rem;
+    border: 2px solid black;
+}
+.message span{
+    color: rgb(7, 0, 0);
+}
+.meta{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    color: rgb(91, 87, 87);
+}
